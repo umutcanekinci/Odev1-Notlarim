@@ -91,7 +91,11 @@
 
 ## .GITIGNORE FILE
 - Add file
+``` bash
 <file-name>
+```
 
 - Add all files with extension
+``` bash
 *.<extension> 
+```
