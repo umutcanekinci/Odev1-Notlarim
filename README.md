@@ -23,6 +23,11 @@
     rm -rf <folder-name>
 ```
 
+- Remove non-empty folder
+``` bash
+    rmdir /s /q <directory-name>
+```
+
 - Create file
 ``` bash
     touch <file-name.ext>   
@@ -68,20 +73,20 @@
     git status
 ```
 
-- Track the file to commit it later (Working Directory -> Index - Staging)
+- Track the file to commit it later (Working Directory -> Index / Staging)
 ``` bash
     git add <file>
     git add . (add all files)
 ```
 
-- Commit (Index - Staging -> Local Repository)
+- Commit (Index / Staging -> Local Repository)
 ``` bash
     git commit -m "<commit-message>"
 ```
 
 - Add all files and commit 
 ``` bash
-    git commit -a -m "<commit-message>"
+    git commit -am "<commit-message>"
 ```
 
 - Shows the past commits.
